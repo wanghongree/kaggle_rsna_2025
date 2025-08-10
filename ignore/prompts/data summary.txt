@@ -1,0 +1,16 @@
+
+Update @01_data_summary.py
+Complete code in # %% task 1: Create dicom image level data table
+1. Read the tags of each dicom file in series/ folder, including 
+ - 'BitsAllocated', 'BitsStored', 'Columns', 'FrameOfReferenceUID', 'HighBit', 'ImageOrientationPatient', 'ImagePositionPatient', 'InstanceNumber', 'Modality', 'PatientID', 'PhotometricInterpretation', 'PixelRepresentation', 'PixelSpacing', 'PlanarConfiguration', 'RescaleIntercept', 'RescaleSlope', 'RescaleType', 'Rows', 'SOPClassUID', 'SOPInstanceUID', 'SamplesPerPixel', 'SliceThickness', 'SpacingBetweenSlices', 'StudyInstanceUID', 'TransferSyntaxUID'. Read pixel 
+ - pixel data's shape; be careful the data is very large (>300G), so don't store the pixel data value for all DICOM in the RAM.
+2. Add the information from train.csv by joining; also including path of the dicom.
+3. Add the information from train_localizers.csv by left joining. also including path of the dicom.
+4. create a dataframe, each row is a dicom image, the dataframe has columns SeriesInstanceUID, SOPInstanceUID, and the tags and information collected.
+5. Look through the files in segmentations, create a dataframe on series level, inluding tags for .nii files and its corresponding _cowseg.nii files. inlude their data shapes and path. Join this dataframe with the dicom instance level one.
+6. save the dataframe into data/processed/. So that in the future I read directly from this data for further analysis.
+7. create a documentaion called CLAUDE.md in the data/processed/, which should describe 
+ - a brief description of what's the data about, and what information are included.
+ - the format of the data, including columns, data types of each columns, number of rows, description for some columns if necessary.
+
+be careful of tags with missing values.

@@ -1,0 +1,119 @@
+Please help me to summary for a kaggle competition I am doing. Generate a markdown format summary. 
+
+This is for information in LLM prompt.
+
+
+
+Below is the some information about the data folder. 
+
+The folder structure:
+data/
+kaggle_evaluation/ # not important, won't show details
+segmentations/
+{SeriesInstanceUID}/ # multiple dirs like this 
+{SeriesInstanceUID}.nii
+{SeriesInstanceUID}_cowseg.nii
+series/
+{SeriesInstanceUID}/ # multiple dirs like this 
+{SOPInstanceUID}.dcm # multiple dirs like this 
+train.csv
+train_localizers.csv
+
+train_localizers.csv data structure
+>>> train_localizers.info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2286 entries, 0 to 2285
+Data columns (total 4 columns):
+ #   Column             Non-Null Count  Dtype 
+---  ------             --------------  ----- 
+ 0   SeriesInstanceUID  2286 non-null   object
+ 1   SOPInstanceUID     2286 non-null   object
+ 2   coordinates        2286 non-null   object
+ 3   location           2286 non-null   object
+
+train.csv data structure
+>>> train.info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 4405 entries, 0 to 4404
+Data columns (total 18 columns):
+ #   Column                                      Non-Null Count  Dtype 
+---  ------                                      --------------  ----- 
+ 0   SeriesInstanceUID                           4405 non-null   object
+ 1   PatientAge                                  4405 non-null   int64 
+ 2   PatientSex                                  4405 non-null   object
+ 3   Modality                                    4405 non-null   object
+ 4   Left Infraclinoid Internal Carotid Artery   4405 non-null   int64 
+ 5   Right Infraclinoid Internal Carotid Artery  4405 non-null   int64 
+ 6   Left Supraclinoid Internal Carotid Artery   4405 non-null   int64 
+ 7   Right Supraclinoid Internal Carotid Artery  4405 non-null   int64 
+ 8   Left Middle Cerebral Artery                 4405 non-null   int64 
+ 9   Right Middle Cerebral Artery                4405 non-null   int64 
+ 10  Anterior Communicating Artery               4405 non-null   int64 
+ 11  Left Anterior Cerebral Artery               4405 non-null   int64 
+ 12  Right Anterior Cerebral Artery              4405 non-null   int64 
+ 13  Left Posterior Communicating Artery         4405 non-null   int64 
+ 14  Right Posterior Communicating Artery        4405 non-null   int64 
+ 15  Basilar Tip                                 4405 non-null   int64 
+ 16  Other Posterior Circulation                 4405 non-null   int64 
+ 17  Aneurysm Present                            4405 non-null   int64 
+
+
+
+# **Dataset Description**
+
+The competition data comprises several thousand expertly-curated medical imaging series of the brain from a variety of modalities, including CTA, MRA, and T1 post-contrast and T2-weighted MRI. The series have been labeled in thirteen locations for the presence of aneurysms. We include spatial localization labels for all aneurysms and vessel segmentations for a subset of the cases.
+
+## **File and Field Information**
+
+**train.csv** This file contains the primary training labels. Each row corresponds to a single image series. The other columns provide more granular labels for the location of any aneurysms as well as basic demographic data.
+
+- `SeriesInstanceUID` - A unique identifier for each scan series.
+- `Modality` - Identifies the mode of imaging: CTA, MRA, MRI, etc.
+- `PatientAge` and `PatientSex` - Demographic data for the subject of the scan.
+- `Left Infraclinoid Internal Carotid Artery` - One of thirteen binary variables indicating presence of an aneurysm in this location. The other twelve follow. In all cases, `1` denotes the presence of an aneurysm and `0` denotes its absence.
+- `Right Infraclinoid Internal Carotid Artery`
+- `Left Supraclinoid Internal Carotid Artery`
+- `Right Supraclinoid Internal Carotid Artery`
+- `Left Middle Cerebral Artery`
+- `Right Middle Cerebral Artery`
+- `Anterior Communicating Artery`
+- `Left Anterior Cerebral Artery`
+- `Right Anterior Cerebral Artery`
+- `Left Posterior Communicating Artery`
+- `Right Posterior Communicating Artery`
+- `Basilar Tip`
+- `Other Posterior Circulation`
+- `Aneurysm Present` The main target variable, binary, indicating if an aneurysm is present anywhere in the scan.
+
+**train_localizers.csv** This file provides localization data for the aneurysms in the training set. For each aneurysm, it provides the specific image (`SOPInstanceUID`) and the coordinates near the aneurysm's center.
+
+- `SeriesInstanceUID` - A unique identifier for each scan series, corresponding to that in `train.csv`.
+- `SOPInstanceUID` - A unique identifier for a specific image within a series.
+- `coordinates` - The xy-coordinates of the center of the aneurysm in the image.
+- `location` - A text description of the aneurysm's location.
+
+**series/** Contains training-set DICOM series, with one series per folder. The filepaths have the form `series/{SeriesInstanceUID}/{SOPInstanceUID}.dcm`.
+
+The DICOM files contain the identifier tags: `PatientID`, `StudyUID`, and `SeriesUID`. All three tags are included in the DICOMs for conformity to the DICOM standard, but only `SeriesUID` is meaningful. The `PatientID` and `StudyUID` tags do not identify anything.
+
+**segmentations/** Contains NifTI vessel segmentations for a subset of the DICOM series in `series/`. The labels are described as follows:
+
+| **Label Value** | **Label** |
+| --- | --- |
+| 1 | Other Posterior Circulation |
+| 2 | Basilar Tip |
+| 3 | Right Posterior Communicating Artery |
+| 4 | Left Posterior Communicating Artery |
+| 5 | Right Infraclinoid Internal Carotid Artery |
+| 6 | Left Infraclinoid Internal Carotid Artery |
+| 7 | Right Supraclinoid Internal Carotid Artery |
+| 8 | Left Supraclinoid Internal Carotid Artery |
+| 9 | Right Middle Cerebral Artery |
+| 10 | Left Middle Cerebral Artery |
+| 11 | Right Anterior Cerebral Artery |
+| 12 | Left Anterior Cerebral Artery |
+| 13 | Anterior Communicating Artery |
+
+**kaggle_evaluation/** Files used by the evaluation API. See the [demo submission](https://www.kaggle.com/code/ryanholbrook/rsna-aneurysm-detection-demo-submission) for an illustration of how to use the API. This API will serve the test set to your submission one series at a time, in unfixed random order. There are nearly 2500 series in the test set.
+
+The DICOM tags in the test set have been restricted to: `['BitsAllocated', 'BitsStored', 'Columns', 'FrameOfReferenceUID', 'HighBit', 'ImageOrientationPatient', 'ImagePositionPatient', 'InstanceNumber', 'Modality', 'PatientID', 'PhotometricInterpretation', 'PixelRepresentation', 'PixelSpacing', 'PlanarConfiguration', 'RescaleIntercept', 'RescaleSlope', 'RescaleType', 'Rows', 'SOPClassUID', 'SOPInstanceUID', 'SamplesPerPixel', 'SliceThickness', 'SpacingBetweenSlices', 'StudyInstanceUID', 'TransferSyntaxUID']`.
