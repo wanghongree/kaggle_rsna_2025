@@ -8,3 +8,7 @@ pyyaml
 pytest
 # Optional JPEG 2000 decompression support for DICOM pixel data
 pillow>=10.0
+# JPEG Lossless decompression support for DICOM
+pylibjpeg>=2.0
+pylibjpeg-libjpeg>=2.1
+matplotlib
