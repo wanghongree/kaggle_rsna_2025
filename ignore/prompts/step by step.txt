@@ -1,0 +1,12 @@
+Please find out the number of dicom instance for each series. 
+Create a file called 01_eda_dcm_number.py in scripts/. Keep all functions inside this script. 
+This script should save the result in a csv file in data/processed.
+No test needed. Let me run the script. Add shore description of this file (what it does) into a CLAUDE.md file in scripts/ folder.
+
+
+
+Create another script. It read train.csv. Merge it with @data/processed/dcm_file_counts_per_series.csv. Use the result to generate a hostograms of dcm_file_count for each Modality. save the image in report/ folder.
+
+add another script, which read the SeriesInstanceUID for segmentation data (the file names in @segmentations), and the corrsponding .nii file and _cowseg.nii segmentaion file name. Left join with the @data/processed/train_with_dcm_counts.csv and indicate which of the SeriesInstanceUID in the series has segmentaion data along with .nii file names.
+save the new data in @data/processed
+
