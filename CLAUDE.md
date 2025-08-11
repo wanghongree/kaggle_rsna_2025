@@ -31,8 +31,8 @@ raw/
   ├── series/{SeriesInstanceUID}/{SOPInstanceUID}.dcm
   ├── segmentations/{SeriesInstanceUID}/
   │   ├── {SeriesInstanceUID}.nii
-  │   └── {SeriesInstanceUID}\_cowseg.nii
-  └── kaggle\_evaluation/   # not relevant for training
+  │   └── {SeriesInstanceUID}_cowseg.nii
+  └── kaggle_evaluation/   # not relevant for training
 interim/
 processed/
 
@@ -152,9 +152,15 @@ avoid modifying the following:
  - Use logging (module-level logger) for info/warn/debug; avoid print in modules/.
 
 
+## test
+ - Unit tests for non-trivial functions in tests/ in a corrsponding script.
+ - Fast tests only (seconds). Heavy I/O mocked or sample fixtures in tests/fixtures/.
+ - when developing a script, using a sample data or mocked data rather than full data, as full data is huge. 
 
 
-
+# debug
+ - scripts and outputs for debug should go to debug/ folder
+ - run python scripts using virtual enviroment venv
 
 
 

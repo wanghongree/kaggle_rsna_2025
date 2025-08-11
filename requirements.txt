@@ -1,1 +1,10 @@
 pandas
+pydicom
+nibabel
+tqdm
+numpy
+pyarrow
+pyyaml
+pytest
+# Optional JPEG 2000 decompression support for DICOM pixel data
+pillow>=10.0

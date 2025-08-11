@@ -1,0 +1,30 @@
+# Path configuration for RSNA Intracranial Aneurysm Detection project
+
+# Project root directory - all other paths are relative to this
+project_root: "/home/hongrui/work/kaggle_rsna_2025"
+
+# Data directories
+data:
+  root: "data"
+  raw: "data/raw"
+  interim: "data/interim" 
+  processed: "data/processed"
+  series: "data/series"
+  segmentations: "data/segmentations"
+  
+# CSV files
+csv_files:
+  train: "data/train.csv"
+  train_localizers: "data/train_localizers.csv"
+
+# Output paths
+outputs:
+  dicom_metadata: "data/processed/dicom_metadata.parquet"
+  test_results: "tests/test_output"  # .csv or .parquet will be appended
+  test_log: "tests/test_log.txt"
+
+# Scripts and modules
+code:
+  scripts: "scripts"
+  modules: "modules"
+  tests: "tests"

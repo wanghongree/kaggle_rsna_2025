@@ -1,0 +1,1166 @@
+2025-08-11 14:32:43,508 - INFO - Processing series: 1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003
+2025-08-11 14:32:43,512 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.10230420243110579240725890506068204783.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,515 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.58668192696569617045555428802952330441.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,516 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.10162564692973790045375595955584878536.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,518 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.13223117792775328587571478878404175883.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,519 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.34733176910798457896013975737351475686.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,520 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.77784904789703388543545808736441952633.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,522 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.10683361437704646840401624939483824892.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,523 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.47924988578104352558964626643441386083.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,524 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.45998696581916259008854854740723855215.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,526 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.19191099465845111499718835198447662626.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,527 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.77023264842832705017909319556392797938.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,528 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.26857781876475269088303735039717744813.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,530 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.67910464789596085584861865161203493232.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,531 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.36052397702745754711918731947534871073.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,532 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.55024295090639436088146725008404827848.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,533 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12381678150097878125964561413410816813.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,535 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11418368580891402557519549856441055516.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,536 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.89550095914443882519688095608097734480.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,537 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12822556756407226142932248790866452536.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,539 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.80590664761259493853874694498011579038.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,540 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.19080767759143922261347551022187363539.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,541 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.34999352257115576995436317245575414341.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,542 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.66098296874056858971748349132928797128.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,544 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.10512685823506363833444209524534159062.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,545 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.93621140124325790772216803752177585529.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,546 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.73444000712039631136103154965186498562.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,548 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.14683384776261780067729005843264343410.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,549 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.89256976444612693670058588201977447245.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,550 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.42655637474874756588048086449312330890.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,552 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.54782092779606359342186240819186112572.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,553 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12847336638617094374333821939790685711.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,554 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.17584097746390718466429627043808147566.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,556 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.87062212615116675920954271464540818788.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,557 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.48380995428467660521888478981179205270.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,559 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11074117846269032128259661940699302248.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,560 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.46721641083850256270094780361668939694.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,561 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.13045779785461573895897680973197616883.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,563 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.43939564688032320313771225563622641318.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,564 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12819014278690206017624471359106065086.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,565 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.85548082013559130613531634429623462771.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,567 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.40178813291044990809659670354181013253.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,568 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.31251743559188092199009758156774257684.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,569 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.18892827350866920480039588865429389156.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,571 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12842423802158991502515960001689050135.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,572 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.91778455628233760600769039269616420773.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,573 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12410272960244650803801093441059302553.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,574 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12503733581072322119631708858644507210.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,576 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.91492852338522008292723626986940632227.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,577 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.67714420071823016719282878860274081817.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,578 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.60132754700823005089269379722269433590.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,581 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.10150231756779598494865273773456432816.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,583 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.18566886880733223820856064438653144762.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,585 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12819980174252571754134066035686170156.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,587 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.39267855595672327364764157020395882107.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,588 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.97438243618496694956571829594289966325.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,590 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.76962887457828741896223688035142319086.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,591 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.49143346561231689706150088001036886954.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,592 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.24058383743910166326356037671943863318.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,594 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.77026009140331945615344004846646822108.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,595 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.44685697306743537119752172049073798359.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,597 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.28186025454749878189808454255715384732.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,598 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.87018167072062924583979196138836710920.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,600 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.92895677892994631727235565920248175515.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,602 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11260930417693394276252770086937044142.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,603 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.19739934362406078197816448246781805280.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,604 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.88484507721949749358120844270208163795.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,606 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.36651612500191289811035845211143699162.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,607 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.28921613240801740726040357157224072348.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,608 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.88440256234328087817523132402503072979.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,609 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.45012957468752404499710574446641607049.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,611 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.23891277588126185400495819148521887455.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,612 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.23777720428498151337962375633139313340.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,614 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.46562570637311663092529789465310193391.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,615 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.13233338670455415357183195594424769728.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,616 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.47688780386019015113611810317519672108.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,617 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.73190916099453939557631546854189873883.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,619 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.27812433723164929594662915373946212131.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,620 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.13189258045748872920788609863900737735.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,621 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.94011615438614822591485924657221888997.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,623 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12905179365041725953897423732108712391.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,624 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.26831105258201301585592135061654659997.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,625 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.10868059582234139400478817281584453524.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,626 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.95839503667250998180043078264171582583.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,628 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.16228153112055009292678667533311756794.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,629 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.73585898324732597826073457529771111719.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,630 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.63716382079738171370503687643758855150.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,632 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11250990895441555497790562941384007267.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,633 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.15604093011856739413222330208238640618.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,634 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.25880020154520285099493533100856024723.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,636 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12176547459440879325222407964554821751.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,638 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.97815931779347997595486543069466094535.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,639 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.36095690605628004823098615392045797266.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,640 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11266012224858477311080291608373462400.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,642 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.75179405567101303990950437018583515125.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,643 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.10036691315316557575821879710910701783.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,644 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.57067259130748623008004388807428920928.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,645 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.75783336388035701507253845475403200405.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,647 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11110496139453693018833581051587018976.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,648 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.10655103101512672332625114967977772117.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,649 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.38506997017556485816214368755999678278.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,651 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.83645011421172339079537231409394248588.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,652 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.10696648287763197787492352943598619175.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,653 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.16502337196716682022532384886955933507.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,655 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.33785615673242508095713492510201017712.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,656 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.81602968225418775546579193078923643083.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,657 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.48034852859733406140099793881604857414.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,658 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.52868865693973016273866062232639484086.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,660 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.24567504339897565204410085169136949978.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,661 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.17660121553464703701353510918218582236.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,662 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.16337676295628460125694656047117453294.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,664 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.82714245503265725016806764917735683772.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,665 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12596645927979836295333731900713893137.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,666 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.59783069232553068179640891330496289250.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,667 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.20715971225675443305626243447788918382.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,669 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.50907727484930327256608453356469626811.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,670 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11689425487783409564366417814591609557.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,671 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12093348968577420439156660655567925028.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,673 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.65999153680846757538900602901378649447.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,674 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.99135915914223116662089028596457433845.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,675 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.73703152124862687081865323329877059251.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,676 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.13384745136076363657384356964725789905.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,679 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12564767549923083574441682981539520306.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,680 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.10230352466094918202635517290631725413.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,681 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.39699022246752507244397738042123283969.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,682 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11932113773660750047886198445695398881.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,684 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.10349202663528683187440680514914602485.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,685 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.97357771469889819988253261292331686718.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,687 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.46312809870409591515136511199173893263.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,688 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12358192524299300370016861261351370427.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,689 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.33195542389774621915944151819897149965.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,691 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.58867245052413785138760718899299869965.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,692 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.13126260210620971279701451414667461154.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,693 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12530711330862173758220687959516536781.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,694 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12301426555016523540055062533959562286.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,696 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.65589280627817226840751083436534946254.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,697 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.58147883277656594056550324321944968379.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,698 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.94555435647687646202718238066518254830.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,700 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.48105154826108712290723208357285964702.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,701 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.10318763609986671545803435556040540247.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,703 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.45697864352481958115578287018233659489.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,704 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.53957369403412787245419045143659399669.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,705 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.56770398288902868274165612417617363954.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,706 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.64339226418828671797181804050143400856.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,708 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11943147421352347219071127142305485463.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,709 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.89782453743077390998836003763575206314.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,710 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12464458959191900792821269435968183973.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,712 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.84373417185439008324657982879847948883.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,713 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12160509524470769162987396394871419624.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,714 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.71605290788923769073504013808029582987.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,716 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12129203466643519985612998620513193742.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,717 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.39987208461146472428447133418181897951.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,719 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11866120925762143174210501397675980279.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,720 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.24089504279834265166070886006462460962.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,722 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.86655611813120959057233165555355800780.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,723 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.74279141750890396221026323472294830160.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,724 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.95479851531874230019142269948474852427.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,725 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.16503258431449600923651078815900522244.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,727 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.54297413287542612856349991816002897024.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,728 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.41040244626293644979208819518103615005.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,729 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.56169142256914978558907656707061146899.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,731 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.54604449209256373856304992753520965430.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,732 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.36603720321326365222580323629170581571.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,733 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11298493775177953745567614163535378301.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,735 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.35255634711045600266596830882490968360.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,736 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11113252709250871988902278995125526272.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,737 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11128986571009402490395961888382161075.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,738 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.55545936444502865232583001184977088628.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,740 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.54538961940500221158845843405335832791.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,741 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.68341319854204825952889591032033991263.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,742 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.35313016236462090647934263558730853209.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,743 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12206599132370077698686452837791554186.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,745 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.17927381881189633983295542676500400532.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,746 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.50425736341288271676587650186600473105.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,747 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12487977441605305687124489819378088116.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,749 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.57365503862644098911417830792079553065.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,750 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12195151321749208290787207183719797379.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,751 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12595346728071793995701597894366311947.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,753 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.50505761911011472356917173925180518585.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,754 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.26510017608397153896268314176942454255.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,755 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.92835337000159584536680449068191327884.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,756 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.73878946468927236618854955260683248041.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,758 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.93815590802921946598899896280178033995.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,760 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.22713439463748367728893327662027769921.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,761 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.10712070723678356948729744604912648248.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,762 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.39215462447473059071177796963804674256.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,764 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.68878420568299569806263133410722548578.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,765 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.67145324523180677995314869819385681047.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,766 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.74361072333213130601143703376370465544.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,767 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.45758308156902974362095282862555906543.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,769 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.26167853814122462196706345099892412335.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,770 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.56787734650513564976793403485700491400.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,771 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.26831386576153530287402942676857181426.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,773 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.65265177263558408253999912660851781288.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,774 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.13039031427125329141538889653972922913.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,775 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.56110225471397805992090677103300742924.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,776 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.15074888360574905043408565310236332994.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,778 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12767199160002542835193029321934836632.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,779 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12132939219912270251642523322794298059.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,780 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.44762803511557976709952979441600909981.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,781 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11548359835248396070088619073930253579.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,783 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.10476793746797231740872493699172433296.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,784 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.91984538898531602471605281184764972601.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,785 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.73350135629941756644171443004108202212.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,787 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.76299903146443154118354796263810212354.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,788 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.22139696338072369538293632958653527719.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,789 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12972041066182984242557623403716878477.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,791 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.70488556603764784027171643982875352419.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,792 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.14413818603671318383710807534101951418.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,793 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.67506666432104786374996128211241571788.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,794 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.32255567096442744171708611480113094105.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,796 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.92066750725742674138060980301847742401.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,797 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.65432504437686317239570917402420652980.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,799 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.82601142037987297215778809269238204493.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,801 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.38880171662652988080882129650380655281.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,802 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.57615922254638617625619688494484329114.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,803 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11325604273441497367137152000821362685.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,805 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.85571455867470919098545357251029661049.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,806 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12150899233013547263718207883001626530.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,807 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11512870444762232157155897870439231249.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,809 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.88655439425053374825260047543598996483.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,810 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.10334204925970183165401372443280269707.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,811 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12504967242384930501527100953980845533.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,813 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.69761344023624302063685005643310304854.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,814 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.13162358292216005690667669103822593722.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,815 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12127006756939340840574529208161342924.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,817 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.10946226163970371527265446096718271808.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,818 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.46165678695358763522288567887757281058.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,819 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.94055450293137113381880272814643499968.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,821 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.93396734790793542696701516396541532171.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,822 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.26278531581787737315910874380516286738.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,823 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.24331405786708353521930415253130780622.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,825 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.50635881132709406627874450597918983984.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,826 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.80685773911204260627696684167986327853.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,827 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11058693566130237046566410618610600693.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,829 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.13282499015766109589094846788576113311.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,830 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.86741340309160443724194719958820429813.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,831 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.13285534934218099730563975254665655615.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,833 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.44349784766998841389831006549619316866.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,834 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.29757303187856995696024784856594569265.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,835 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.80121531082027053705422930024846844727.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,837 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.35139233632886778750592072946287786523.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,838 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11746725221276206690740418489046747731.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,840 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11803969152245583705291818453247344621.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,841 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12100619363052867729894400200779702808.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,843 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11109311425552436308921084583506800358.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,844 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.14965268145538797504598844836321897247.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,845 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.66999898637890579338760926906514627006.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,847 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.43258816832134321884427621525385556169.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,848 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.37607504045713550579734500467575826373.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,849 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.12089072597925276077933265769216763231.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,851 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11069365002941661664912867294378402319.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,852 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.88133584921249724130253741148210934067.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,853 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.35801545684509753307891488406686069096.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,855 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.46506997906748511261261292638385336655.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,856 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.25316134195664651921165450002416077559.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,857 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.11015026333822170241274911808440915049.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,858 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.13159190777861609360722252066470165939.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,860 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.47171427956891724643009395698315624860.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,861 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003/1.2.826.0.1.3680043.8.498.30427851046133276625731891705760772677.dcm: Unable to decompress 'JPEG 2000 Image Compression (Lossless Only)' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-openjpeg>=2.0
+	pillow - requires numpy and pillow>=10.0
+2025-08-11 14:32:43,863 - INFO - Extracted 259 DICOM images from series 1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003
+2025-08-11 14:32:43,886 - INFO - Completed processing series 1.2.826.0.1.3680043.8.498.24059937312846701557229931292132131003: 259 rows
+2025-08-11 14:32:43,887 - INFO - Processing series: 1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306
+2025-08-11 14:32:43,888 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.44375656464966336664404609963736953151.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,889 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.42170286512642238711090679830372452342.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,890 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.61492714210896424990227820148845944397.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,891 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.93644219348817263110417553724984260167.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,893 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.76787680780750069430645203562489459505.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,894 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.26728165547631596330927148458929599139.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,895 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.13295099398603847180617208996372005487.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,896 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.49891675838439366996827550134353100157.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,897 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.13275984078749145470856597218259380669.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,898 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.24313957663383184398658652241356171595.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,899 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.19651632860117260626912019922627446688.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,900 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.17519922285427694202954072250089631899.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,902 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.67775812967279697606957098220197844677.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,903 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.12820740880595408782957014503990587613.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,904 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.56324012072130108236035213375057123654.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,905 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.93712709814372782148537406529726074627.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,906 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.18149004566493729144577876050728461741.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,907 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.76642800615532266024361713656231548984.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,908 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306/1.2.826.0.1.3680043.8.498.90901767678913809108669279348976906461.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,909 - INFO - Extracted 19 DICOM images from series 1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306
+2025-08-11 14:32:43,930 - INFO - Completed processing series 1.2.826.0.1.3680043.8.498.75712554178574230484227682423862727306: 19 rows
+2025-08-11 14:32:43,931 - INFO - Processing series: 1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892
+2025-08-11 14:32:43,932 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.56796110883501310274061740326660286965.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,934 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.77144476306990156513011968863226973264.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,935 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.14573705459389786875499603080657375553.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,936 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.85936080994136062492402711438434950058.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,937 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.74433245527002221665271307110173261254.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,938 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.92652994299920146973560918733586158027.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,939 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.50533193565998464982916190591084810859.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,940 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.19182496020020576048394913997283801040.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,941 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.10066890221400010834074532952395253421.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,942 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.32492647962240592646457387111907027711.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,944 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.38166642269321776399205391538849561058.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,945 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.76514054245542977976298573550704780779.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,946 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.64552024803771040585978678379621209613.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,947 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.68945582683437992452043163207501090698.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,948 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.26674705040094803729352109146169288720.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,949 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.14247473327328764263598573486131366676.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,950 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.76890879866006054643794408293363023464.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,951 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.76898512763100395920041611962774256775.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,953 - WARNING - Could not extract pixel shape from /home/hongrui/work/kaggle_rsna_2025/data/series/1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892/1.2.826.0.1.3680043.8.498.48441967948177265015240323607530346570.dcm: Unable to decompress 'JPEG Lossless, Non-Hierarchical, First-Order Prediction (Process 14 [Selection Value 1])' pixel data because all plugins are missing dependencies:
+	gdcm - requires gdcm>=3.0.10
+	pylibjpeg - requires pylibjpeg>=2.0 and pylibjpeg-libjpeg>=2.1
+2025-08-11 14:32:43,953 - INFO - Extracted 19 DICOM images from series 1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892
+2025-08-11 14:32:43,974 - INFO - Completed processing series 1.2.826.0.1.3680043.8.498.82768897201281605198635077495114055892: 19 rows
+2025-08-11 14:32:43,974 - INFO - Processing series: 1.2.826.0.1.3680043.8.498.10004044428023505108375152878107656647
+2025-08-11 14:32:46,175 - INFO - Extracted 188 DICOM images from series 1.2.826.0.1.3680043.8.498.10004044428023505108375152878107656647
+2025-08-11 14:32:46,192 - INFO - Completed processing series 1.2.826.0.1.3680043.8.498.10004044428023505108375152878107656647: 188 rows
+2025-08-11 14:32:46,193 - INFO - Processing series: 1.2.826.0.1.3680043.8.498.10035643165968342618460849823699311381
+2025-08-11 14:32:48,514 - INFO - Extracted 228 DICOM images from series 1.2.826.0.1.3680043.8.498.10035643165968342618460849823699311381
+2025-08-11 14:32:48,531 - INFO - Processing segmentation for series: 1.2.826.0.1.3680043.8.498.10035643165968342618460849823699311381
+2025-08-11 14:32:48,533 - INFO - Completed processing series 1.2.826.0.1.3680043.8.498.10035643165968342618460849823699311381: 228 rows
