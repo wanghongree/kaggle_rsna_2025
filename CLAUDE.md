@@ -111,8 +111,6 @@ avoid modifying the following:
 
 
 # how claude should work here
- - Default editing targets (in order):
-    - 1 modules/*.py, 2 scripts/*.py, 3 configs
  - Prefer refactors into modules/ over writing long code in scripts/.
  - Keep analysis cells short (≤ ~30 lines) and focused on one task.
  - Ask before adding new dependencies or changing project layout.
@@ -129,40 +127,20 @@ avoid modifying the following:
 
 # Coding Style & Conventions
 ## General
- - Python ≥ 3.10, type hints required in modules/.
- - Docstrings: Google style.
  - Small, single-purpose functions. Prefer pure functions; isolate I/O.
- - Pandas: favor vectorized ops; avoid loops; chain with .pipe() for clarity.
- - Plotting: centralize common styles in modules/viz.py; save figures to reports/figs/.
  - Randomness: set seeds via numpy.random.default_rng(seed); keep seed in config.
-
-## Naming
- - Modules: snake_case.py; functions: verb_noun (e.g., load_parquet, clean_dates).
- - Scripts: prefix with order NN_ + task (e.g., 02_feature_summary.py).
-
-## ariables:
- - DataFrames: df, df_users; series: s; paths: path_*.
-
-## Imports
- - Standard library → third-party → local, separated by blank lines.
- - No wildcard imports. Prefer explicit: from modules.clean import normalize_names.
 
 ## Error handling & logging
  - Raise precise exceptions in modules/; don’t silently pass.
  - Use logging (module-level logger) for info/warn/debug; avoid print in modules/.
 
-
-## test
- - Unit tests for non-trivial functions in tests/ in a corrsponding script.
- - Fast tests only (seconds). Heavy I/O mocked or sample fixtures in tests/fixtures/.
- - when developing a script, using a sample data or mocked data rather than full data, as full data is huge. 
-
-
 # debug
- - scripts and outputs for debug should go to debug/ folder
+ - scripts and outputs for debuing should go to debug/ folder
  - run python scripts using virtual enviroment venv
 
-
+## Naming
+ - Modules: snake_case.py; functions: verb_noun (e.g., load_parquet, clean_dates).
+ - Scripts: prefix with order NN_ + task (e.g., 02_feature_summary.py).
 
 
 

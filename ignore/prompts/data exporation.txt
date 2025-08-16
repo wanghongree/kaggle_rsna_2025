@@ -1,0 +1,21 @@
+Please create another script, which will open dicom files for each series in folder data/series, read the pixel
+   data, and record the shape. 
+  Sample only one dicom instance per series folder. Ouput is a dataframe on
+   series level (each row is a series), which has 3 columns 
+  SeriesInstanceUID,  shape of the pixel image, and its dimension 
+  (2d/3d/4d). This data frame is left joint with 
+  @data/processed/train_with_dcm_and_segmentation.csv on SeriesInstanceUID.
+
+
+
+Please create another script, which will open dicom files for each series in folder data/series, read the pixel data, and record the shape. 
+read every instance in the series folder. Output is a instance level dataframe, where each row is a instance. 
+It should do the following
+ - read every pixel data, and record the shape of the data. store the shape in a colume.
+ - get the dimension (length of the shape) of the data (2d/3d/4d); store in a colume.
+ - get the folloing dicom tags, and put each in a column respectively: BitsAllocated', 'BitsStored', 'Columns', 'FrameOfReferenceUID', 'HighBit', 'ImageOrientationPatient', 'ImagePositionPatient', 'InstanceNumber', 'Modality', 'PatientID', 'PhotometricInterpretation', 'PixelRepresentation', 'PixelSpacing', 'PlanarConfiguration', 'RescaleIntercept', 'RescaleSlope', 'RescaleType', 'Rows', 'SOPClassUID', 'SOPInstanceUID', 'SamplesPerPixel', 'SliceThickness', 'SpacingBetweenSlices', 'StudyInstanceUID', 'TransferSyntaxUID'. Read pixel 
+
+
+As the data is hugh, the data should be stored incrementally, so that if the processing breaks, the processed result won't lost. It should be reprepard for any error occured, and continue and record in a column.
+
+Run two sample series for test and the leave it to me to run.
