@@ -226,6 +226,7 @@ def read_dicom_series(
     mode: str = 'prod',
     filter_invalid_slices: bool = True,
     sort_by: Optional[str] = 'fallback',
+    process_by_modality: bool = False, 
     windowing_mode: Optional[str] = 'fallback',
     custom_window: Optional[Tuple[float, float]] = None,
     resize_to: Optional[Tuple[int, int]] = (512, 512),
@@ -234,25 +235,25 @@ def read_dicom_series(
     to_uint8: bool = False,
 ) -> Tuple[np.ndarray, pd.DataFrame]:
     """
-    Reads a grayscale DICOM series, processes it, and returns a 3D NumPy volume
+    Reads a DICOM series, processes it, and returns a 3D NumPy volume
     along with a DataFrame of corresponding DICOM tags.
 
     Args:
         series_path (str): Path to the folder containing the DICOM series.
         mode (str, optional): Execution mode ('prod' or 'dev'). Defaults to 'prod'.
         filter_invalid_slices (bool, optional): Filters out localizers, scouts, etc. Defaults to True.
-        sort_by (Optional[str], optional): Sorting method ('fallback', 'ipp', 'instance_number', None). Defaults to 'fallback'.
-        windowing_mode (Optional[str], optional): Windowing method ('fallback', 'tags', 'custom', None). Defaults to 'fallback'.
-        custom_window (Optional[Tuple[float, float]], optional): (window_center, window_width) for custom windowing.
-        resize_to (Optional[Tuple[int, int]], optional): If provided, resizes each slice to (height, width).
-        percentile_clip (Optional[Tuple[float, float]], optional): Clips pixel intensities to (low_percentile, high_percentile).
-        percentile_clip_sampling (Optional[int]): Number of pixels to sample for percentile calculation.
+        sort_by (Optional[str], optional): Sorting method ('fallback', 'ipp', 'instance_number', None).
+        process_by_modality (bool, optional): If True, applies windowing for CT and percentile
+            clipping for MR. Overrides default sequential processing. Defaults to False.
+        windowing_mode (Optional[str], optional): Windowing method ('fallback', 'tags', 'custom', None).
+        custom_window (Optional[Tuple[float, float]], optional): (window_center, window_width).
+        resize_to (Optional[Tuple[int, int]], optional): Resizes each slice to (height, width).
+        percentile_clip (Optional[Tuple[float, float]], optional): Clips intensities to (low_percentile, high_percentile).
+        percentile_clip_sampling (Optional[int]): Number of pixels for percentile calculation.
         to_uint8 (bool, optional): If True, converts the final volume to uint8 (0-255).
 
     Returns:
-        Tuple[np.ndarray, pd.DataFrame]: A tuple containing:
-            - A 3D NumPy array representing the DICOM volume (slices, height, width).
-            - A Pandas DataFrame with DICOM tags for each slice.
+        Tuple[np.ndarray, pd.DataFrame]: A tuple containing the 3D volume and a DataFrame of tags.
     """
     # 1. Validate initial parameters
     _validate_parameters(series_path, mode)
@@ -278,11 +279,22 @@ def read_dicom_series(
     first_slice_meta = dicom_datasets[0]
     volume = _apply_rescale(volume, first_slice_meta)
 
-    if percentile_clip:
-        volume = _apply_percentile_clip(volume, percentile_clip, percentile_clip_sampling)
+    if process_by_modality:
+        modality = first_slice_meta.get('Modality', '').upper()
+        if modality == 'CT':
+            if windowing_mode:
+                volume = _apply_windowing(volume, first_slice_meta, windowing_mode, custom_window)
+        elif modality == 'MR':
+            if percentile_clip:
+                volume = _apply_percentile_clip(volume, percentile_clip, percentile_clip_sampling)
+        # For other modalities, no clipping or windowing is applied in this mode.
+    else:
+        # Original sequential processing logic
+        if percentile_clip:
+            volume = _apply_percentile_clip(volume, percentile_clip, percentile_clip_sampling)
+        if windowing_mode:
+            volume = _apply_windowing(volume, first_slice_meta, windowing_mode, custom_window)
 
-    if windowing_mode:
-        volume = _apply_windowing(volume, first_slice_meta, windowing_mode, custom_window)
     
     if to_uint8:
         volume = _normalize_to_uint8(volume)
