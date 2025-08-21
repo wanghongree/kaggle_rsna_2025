@@ -1,14 +1,230 @@
-# !pip install --upgrade \
-#     pylibjpeg \
-#     pylibjpeg-libjpeg \
-#     pylibjpeg-openjpeg \
-#     imagecodecs
+######################
+# Refactored Code
+######################
+import os
+import warnings
+from typing import Tuple, Optional, List, Dict, Any
 
-# !pip install --upgrade "numpy<2.0"
+import cv2
+import numpy as np
+import pandas as pd
+import pydicom
+from pydicom.dataset import Dataset
+from pydicom.multival import MultiValue
 
+# --- Constants ---
+# Moved to module level as they are true constants.
+TAGS_TO_EXTRACT = [
+    'BitsAllocated', 'BitsStored', 'Columns', 'FrameOfReferenceUID', 'HighBit',
+    'ImageOrientationPatient', 'ImagePositionPatient', 'InstanceNumber', 'Modality',
+    'PatientID', 'PhotometricInterpretation', 'PixelRepresentation', 'PixelSpacing',
+    'PlanarConfiguration', 'RescaleIntercept', 'RescaleSlope', 'RescaleType',
+    'Rows', 'SOPClassUID', 'SOPInstanceUID', 'SamplesPerPixel', 'SliceThickness',
+    'SpacingBetweenSlices', 'StudyInstanceUID', 'TransferSyntaxUID'
+]
+REJECT_IMAGE_TYPES = {'LOCALIZER', 'SCOUT', 'SECONDARY', 'MPR'}
+
+# --- Helper Functions for Loading and Validation ---
+
+def _validate_parameters(series_path: str, mode: str):
+    """Validates the initial input parameters."""
+    if not os.path.isdir(series_path):
+        raise FileNotFoundError(f"Directory not found: {series_path}")
+    if mode.lower() not in ['prod', 'dev']:
+        raise ValueError(f"Unknown mode: '{mode}'. Options are 'prod' or 'dev'.")
+
+def _is_slice_valid(ds: Dataset, filter_invalid: bool) -> bool:
+    """Checks if a single DICOM slice is valid for inclusion in the volume."""
+    if not hasattr(ds, 'PixelData'):
+        raise ValueError("File has no pixel data.")
+
+    if ds.get('SamplesPerPixel') == 3 or 'RGB' in ds.get('PhotometricInterpretation', ''):
+        raise ValueError("Color DICOM images are not supported.")
+    
+    if filter_invalid:
+        image_type = set(ds.get('ImageType', []))
+        if REJECT_IMAGE_TYPES.intersection(image_type):
+            raise ValueError(f"Filtered as invalid ImageType: {image_type}")
+
+        pixel_array_check = ds.pixel_array
+        if pixel_array_check.min() == pixel_array_check.max():
+            raise ValueError("Filtered as blank/constant pixel data.")
+            
+    return True
+
+def _extract_tags(ds: Dataset, filename: str) -> Dict[str, Any]:
+    """Extracts a predefined list of tags from a DICOM dataset."""
+    slice_tags = {'FileName': filename}
+    for tag in TAGS_TO_EXTRACT:
+        value = ds.get(tag, None)
+        if isinstance(value, MultiValue):
+            slice_tags[tag] = list(value)
+        else:
+            slice_tags[tag] = value
+    return slice_tags
+
+def _load_and_validate_slices(
+    series_path: str, mode: str, filter_invalid: bool
+) -> List[Tuple[Dataset, Dict[str, Any]]]:
+    """Walks the directory, reads, validates, and extracts tags from DICOM files."""
+    validated_slices = []
+    run_mode = mode.lower()
+
+    for root, _, files in os.walk(series_path):
+        for file in files:
+            file_path = os.path.join(root, file)
+            try:
+                ds = pydicom.dcmread(file_path)
+                if _is_slice_valid(ds, filter_invalid):
+                    tags = _extract_tags(ds, file)
+                    validated_slices.append((ds, tags))
+            except Exception as e:
+                if run_mode == 'prod':
+                    warnings.warn(f"Skipping file '{file}' due to error: {e}", UserWarning)
+                    continue
+                else:  # mode == 'dev'
+                    raise type(e)(f"Error processing file '{file_path}': {e}") from e
+    
+    return validated_slices
+
+# --- Helper Functions for Sorting ---
+
+def _sort_by_ipp(items: List[Tuple[Dataset, Dict]]):
+    """Sorts a list of (dataset, tags) tuples by spatial position (IPP)."""
+    first_ds = items[0][0]
+    row_vec = np.array(first_ds.ImageOrientationPatient[:3])
+    col_vec = np.array(first_ds.ImageOrientationPatient[3:])
+    normal_vec = np.cross(row_vec, col_vec)
+    items.sort(key=lambda item: np.dot(np.array(item[0].ImagePositionPatient), normal_vec))
+
+def _sort_by_instance_number(items: List[Tuple[Dataset, Dict]]):
+    """Sorts a list of (dataset, tags) tuples by InstanceNumber."""
+    items.sort(key=lambda item: int(item[0].InstanceNumber))
+
+def _sort_dicom_series(
+    validated_slices: List[Tuple[Dataset, Dict]], sort_by: Optional[str]
+):
+    """Orchestrates sorting of DICOM slices based on the specified method."""
+    if not sort_by:
+        return
+
+    sort_mode = sort_by.lower()
+    try:
+        if sort_mode == 'ipp':
+            _sort_by_ipp(validated_slices)
+        elif sort_mode == 'instance_number':
+            _sort_by_instance_number(validated_slices)
+        elif sort_mode == 'fallback':
+            try:
+                _sort_by_ipp(validated_slices)
+            except (AttributeError, IndexError):
+                warnings.warn("Could not sort by IPP/IOP. Falling back to InstanceNumber.", UserWarning)
+                _sort_by_instance_number(validated_slices)
+        else:
+            raise ValueError(f"Unknown sort_by mode: '{sort_by}'.")
+    except Exception as e:
+        warnings.warn(f"Sorting failed with error: '{e}'. Proceeding with unsorted slices.", UserWarning)
+
+# --- Helper Functions for Volume Creation and Post-Processing ---
+
+def _create_volume_from_datasets(
+    dicom_datasets: List[Dataset], resize_to: Optional[Tuple[int, int]]
+) -> np.ndarray:
+    """Extracts pixel data from datasets, resizes, and stacks them into a 3D volume."""
+    all_frames = []
+    target_dims = (resize_to[1], resize_to[0]) if resize_to else None
+
+    for ds in dicom_datasets:
+        pixel_array = ds.pixel_array.astype(np.float32)
+        frames = [pixel_array] if pixel_array.ndim == 2 else list(pixel_array)
+        
+        for frame in frames:
+            if target_dims:
+                frame = cv2.resize(frame, target_dims, interpolation=cv2.INTER_LINEAR)
+            all_frames.append(frame)
+
+    return np.stack(all_frames, axis=0)
+
+def _apply_rescale(volume: np.ndarray, meta: Dataset) -> np.ndarray:
+    """Applies RescaleSlope and RescaleIntercept if present."""
+    slope = float(meta.get('RescaleSlope', 1.0))
+    intercept = float(meta.get('RescaleIntercept', 0.0))
+    if slope != 1.0 or intercept != 0.0:
+        return volume * slope + intercept
+    return volume
+
+def _apply_percentile_clip(
+    volume: np.ndarray,
+    clip_range: Tuple[float, float],
+    sampling_size: Optional[int]
+) -> np.ndarray:
+    """Clips the volume's intensity values to the given percentile range."""
+    low_p, high_p = clip_range
+    if sampling_size and volume.size > sampling_size:
+        indices = np.random.choice(volume.size, size=sampling_size, replace=False)
+        p_low, p_high = np.percentile(volume.ravel()[indices], [low_p, high_p])
+    else:
+        p_low, p_high = np.percentile(volume, [low_p, high_p])
+    
+    return np.clip(volume, p_low, p_high)
+
+def _get_window_from_tags(ds_meta: Dataset) -> Optional[Tuple[float, float]]:
+    """Extracts window center and width from DICOM tags."""
+    if 'WindowCenter' in ds_meta and 'WindowWidth' in ds_meta:
+        wc_val, ww_val = ds_meta.WindowCenter, ds_meta.WindowWidth
+        center = float(wc_val[0] if isinstance(wc_val, MultiValue) else wc_val)
+        width = float(ww_val[0] if isinstance(ww_val, MultiValue) else ww_val)
+        return center, width
+    return None
+
+def _apply_windowing(
+    volume: np.ndarray,
+    meta: Dataset,
+    mode: str,
+    custom_window: Optional[Tuple[float, float]]
+) -> np.ndarray:
+    """Applies windowing (contrast/brightness adjustment) to the volume."""
+    wc, ww = None, None
+    mode = mode.lower()
+
+    if mode == 'tags':
+        wc, ww = _get_window_from_tags(meta)
+        if wc is None:
+            warnings.warn("windowing_mode='tags' but tags not found.", UserWarning)
+    elif mode == 'custom':
+        if custom_window and len(custom_window) == 2:
+            wc, ww = custom_window
+        else:
+            raise ValueError("windowing_mode='custom' requires a valid `custom_window` tuple.")
+    elif mode == 'fallback':
+        wc, ww = _get_window_from_tags(meta)
+        if wc is None and custom_window and len(custom_window) == 2:
+            wc, ww = custom_window
+    elif mode not in [None, 'none']:
+        raise ValueError(f"Unknown windowing_mode: '{mode}'.")
+
+    if wc is not None and ww is not None and ww > 0:
+        img_min = wc - ww / 2
+        img_max = wc + ww / 2
+        return np.clip(volume, img_min, img_max)
+    
+    return volume
+
+def _normalize_to_uint8(volume: np.ndarray) -> np.ndarray:
+    """Normalizes a volume to the 0-255 range and converts to uint8."""
+    min_val, max_val = np.min(volume), np.max(volume)
+    if max_val > min_val:
+        volume = (volume - min_val) / (max_val - min_val)
+    else:
+        volume = np.zeros_like(volume)
+    return (volume * 255).astype(np.uint8)
+
+# --- Main Public Function ---
 
 def read_dicom_series(
     series_path: str,
+    mode: str = 'prod',
+    filter_invalid_slices: bool = True,
     sort_by: Optional[str] = 'fallback',
     windowing_mode: Optional[str] = 'fallback',
     custom_window: Optional[Tuple[float, float]] = None,
@@ -16,239 +232,59 @@ def read_dicom_series(
     percentile_clip: Optional[Tuple[float, float]] = None,
     percentile_clip_sampling: Optional[int] = 2**20,
     to_uint8: bool = False,
-    # --- NEW PARAMETER ---
-    filter_invalid_slices: bool = True,
-) -> np.ndarray:
+) -> Tuple[np.ndarray, pd.DataFrame]:
     """
-    Reads a grayscale DICOM series, processes it, and returns a 3D NumPy volume.
+    Reads a grayscale DICOM series, processes it, and returns a 3D NumPy volume
+    along with a DataFrame of corresponding DICOM tags.
 
     Args:
         series_path (str): Path to the folder containing the DICOM series.
-        sort_by (Optional[str], optional): Sorting method for slices. Options:
-            - 'fallback' (default): Tries to sort by spatial position (IPP/IOP), falls back to InstanceNumber.
-            - 'ipp': Strictly sorts by spatial position. Warns if tags are missing.
-            - 'instance_number': Strictly sorts by InstanceNumber. Warns if tag is missing.
-            - None: No sorting is performed.
-        windowing_mode (Optional[str], optional): Controls how windowing is applied. Options:
-            - 'fallback' (default): Prioritizes window parameters from DICOM tags. If not found, uses `custom_window`.
-            - 'tags': Strictly uses window parameters from DICOM tags. Warns if not found.
-            - 'custom': Strictly uses the window provided in `custom_window`. Raises error if not provided.
-            - None: No windowing is applied.
-        custom_window (Optional[Tuple[float, float]], optional): A tuple of (window_center, window_width)
-            for use with `windowing_mode` 'custom' or 'fallback'. Defaults to None.
+        mode (str, optional): Execution mode ('prod' or 'dev'). Defaults to 'prod'.
+        filter_invalid_slices (bool, optional): Filters out localizers, scouts, etc. Defaults to True.
+        sort_by (Optional[str], optional): Sorting method ('fallback', 'ipp', 'instance_number', None). Defaults to 'fallback'.
+        windowing_mode (Optional[str], optional): Windowing method ('fallback', 'tags', 'custom', None). Defaults to 'fallback'.
+        custom_window (Optional[Tuple[float, float]], optional): (window_center, window_width) for custom windowing.
         resize_to (Optional[Tuple[int, int]], optional): If provided, resizes each slice to (height, width).
-            Defaults to (512, 512). Set to None to disable resizing.
-        percentile_clip (Optional[Tuple[float, float]], optional): If provided as (low, high), clips pixel
-            intensities to the specified percentiles. Defaults to None.
-        percentile_clip_sampling (Optional[int]): The number of pixels to sample for calculating percentiles,
-            for efficiency on large volumes. Defaults to 2**20 (~1 million).
+        percentile_clip (Optional[Tuple[float, float]], optional): Clips pixel intensities to (low_percentile, high_percentile).
+        percentile_clip_sampling (Optional[int]): Number of pixels to sample for percentile calculation.
         to_uint8 (bool, optional): If True, converts the final volume to uint8 (0-255).
-            Otherwise, returns float32 array (e.g., in Hounsfield Units). Defaults to False.
-        # --- NEW DOCSTRING ---
-        filter_invalid_slices (bool, optional): If True (default), filters out DICOM files that are not
-            part of the main volume, such as localizers, scout images, or secondary captures. It also
-            removes images with empty or constant (blank) pixel data.
 
     Returns:
-        np.ndarray: A 3D NumPy array representing the DICOM volume (slices, height, width).
+        Tuple[np.ndarray, pd.DataFrame]: A tuple containing:
+            - A 3D NumPy array representing the DICOM volume (slices, height, width).
+            - A Pandas DataFrame with DICOM tags for each slice.
     """
-    if not os.path.isdir(series_path):
-        raise FileNotFoundError(f"Directory not found: {series_path}")
+    # 1. Validate initial parameters
+    _validate_parameters(series_path, mode)
 
-    # --- MODIFIED SECTION: File reading and filtering ---
+    # 2. Discover, read, and validate individual DICOM slices
+    validated_slices = _load_and_validate_slices(series_path, mode, filter_invalid_slices)
     
-    # Define reject types outside the loop for efficiency
-    # REJECT_IMAGE_TYPES = {'LOCALIZER', 'SCOUT', 'SECONDARY', 'MPR'}
-    REJECT_IMAGE_TYPES = {'SCOUT'}
+    if not validated_slices:
+        warnings.warn(f"No valid DICOM files could be processed in {series_path}", UserWarning)
+        return np.array([]), pd.DataFrame()
 
-    dicom_files: List[Dataset] = []
-    for root, _, files in os.walk(series_path):
-        for file in files:
-            try:
-                ds = pydicom.dcmread(os.path.join(root, file))
-                
-                # Basic check for pixel data, which is essential
-                if not hasattr(ds, 'PixelData'):
-                    print("get here!!")
-                    continue
-                
-                # --- NEW FILTERING LOGIC ---
-                if filter_invalid_slices:
-                    # 1. Check ImageType for non-volumetric slices
-                    image_type = set(ds.get('ImageType', []))
-                    print(image_type)
-                    if REJECT_IMAGE_TYPES.intersection(image_type):
-                        continue # Skip this file as it's a type we want to reject
-                        
-                    # 2. Check for empty or constant pixel data
-                    # This requires accessing the pixel array, which can decompress it.
-                    pixel_array = ds.pixel_array
-                    if pixel_array.min() == pixel_array.max():
-                        continue # Skip this file as it's blank/constant
-                
-                dicom_files.append(ds)
-
-            except InvalidDicomError:
-                continue
-            except Exception as e:
-                # Catch potential errors from ds.pixel_array if data is corrupt
-                warnings.warn(f"Skipping file {file} due to read error: {e}", UserWarning)
-                continue
-    # --- END OF MODIFIED SECTION ---
-
-    if not dicom_files:
-        raise ValueError(f"No valid DICOM files with pixel data found in {series_path}")
-
-    # 2. Sort slices based on the specified mode
-    if sort_by:
-        sort_mode = sort_by.lower()
-        
-        def sort_by_ipp(files):
-            # Check for required tags on the first file before proceeding
-            if not all(hasattr(files[0], tag) for tag in ['ImageOrientationPatient', 'ImagePositionPatient']):
-                 raise AttributeError("Missing IPP/IOP tags for sorting.")
-            row_vec = np.array(files[0].ImageOrientationPatient[:3])
-            col_vec = np.array(files[0].ImageOrientationPatient[3:])
-            normal_vec = np.cross(row_vec, col_vec)
-            files.sort(key=lambda ds: np.dot(np.array(ds.ImagePositionPatient), normal_vec))
-            return True
-        
-        def sort_by_instance(files):
-            if not hasattr(files[0], 'InstanceNumber'):
-                raise AttributeError("Missing InstanceNumber tag for sorting.")
-            files.sort(key=lambda ds: int(ds.InstanceNumber))
-            return True
-
-        if sort_mode == 'ipp':
-            try:
-                sort_by_ipp(dicom_files)
-            except AttributeError:
-                warnings.warn("sort_by='ipp' failed: ImagePositionPatient/ImageOrientationPatient tags missing.", UserWarning)
-        elif sort_mode == 'instance_number':
-            try:
-                sort_by_instance(dicom_files)
-            except AttributeError:
-                warnings.warn("sort_by='instance_number' failed: InstanceNumber tag missing.", UserWarning)
-        elif sort_mode == 'fallback':
-            try:
-                sort_by_ipp(dicom_files)
-            except AttributeError:
-                warnings.warn("Could not sort by ImagePositionPatient. Falling back to InstanceNumber.", UserWarning)
-                try:
-                    sort_by_instance(dicom_files)
-                except AttributeError:
-                    warnings.warn("Fallback sort by InstanceNumber also failed. Proceeding with unsorted slices.", UserWarning)
-        else:
-            raise ValueError(f"Unknown sort_by mode: '{sort_by}'. Options are 'ipp', 'instance_number', 'fallback', or None.")
-
-    # 3. Extract, resize, and collect frames
-    all_frames = []
-    multiframe_count = 0
+    # 3. Sort the validated slices
+    _sort_dicom_series(validated_slices, sort_by)
     
-    target_dims = None
-    if resize_to:
-        if not (isinstance(resize_to, tuple) and len(resize_to) == 2):
-            raise TypeError("resize_to must be a tuple of two integers (height, width).")
-        target_dims = (resize_to[1], resize_to[0])
+    # Separate datasets and tags post-sorting to maintain sync
+    dicom_datasets, tags_data = zip(*validated_slices)
+    df_tags = pd.DataFrame(tags_data)
 
-    for ds in dicom_files:
-        is_color = ds.get('SamplesPerPixel') == 3 or ('PhotometricInterpretation' in ds and 'RGB' in ds.PhotometricInterpretation)
-        if is_color:
-            warnings.warn(f"Skipping a color DICOM image as they are not supported.", UserWarning)
-            continue
+    # 4. Create the 3D volume from pixel data
+    volume = _create_volume_from_datasets(list(dicom_datasets), resize_to)
 
-        pixel_array = ds.pixel_array.astype(np.float32)
-        
-        frames_to_process = []
-        if pixel_array.ndim == 2:
-            frames_to_process.append(pixel_array)
-        elif pixel_array.ndim == 3:
-            multiframe_count += 1
-            frames_to_process.extend(pixel_array[i] for i in range(pixel_array.shape[0]))
-        else:
-            warnings.warn(f"Skipping image with unsupported pixel array dimension: {pixel_array.ndim}", UserWarning)
-            continue
-            
-        for frame in frames_to_process:
-            if target_dims:
-                frame = cv2.resize(frame, target_dims, interpolation=cv2.INTER_LINEAR)
-            all_frames.append(frame)
+    # 5. Apply post-processing steps to the entire volume
+    first_slice_meta = dicom_datasets[0]
+    volume = _apply_rescale(volume, first_slice_meta)
 
-    if multiframe_count > 1:
-        warnings.warn(f"Series contains {multiframe_count} multi-frame DICOM files. All frames have been stacked together.", UserWarning)
-
-    if not all_frames:
-        raise ValueError("Could not extract any pixel frames from the filtered DICOM series.")
-
-    # 4. Stack all collected frames into a volume
-    volume = np.stack(all_frames, axis=0)
-
-    # 5. Apply Rescale Slope and Intercept (HU conversion)
-    first_slice_meta = dicom_files[0]
-    if 'RescaleSlope' in first_slice_meta and 'RescaleIntercept' in first_slice_meta:
-        slope = float(first_slice_meta.RescaleSlope)
-        intercept = float(first_slice_meta.RescaleIntercept)
-        volume = volume * slope + intercept
-
-    # 6. Apply percentile clipping with efficient sampling
     if percentile_clip:
-        if not (isinstance(percentile_clip, tuple) and len(percentile_clip) == 2):
-            raise TypeError("percentile_clip must be a tuple of two floats (low, high).")
-        low, high = percentile_clip
-        if percentile_clip_sampling and volume.size > percentile_clip_sampling:
-            flat_volume = volume.ravel()
-            indices = np.random.choice(flat_volume.size, size=percentile_clip_sampling, replace=False)
-            sample = flat_volume[indices]
-            p_low, p_high = np.percentile(sample, [low, high])
-        else:
-            p_low, p_high = np.percentile(volume, [low, high])
-        volume = np.clip(volume, p_low, p_high)
+        volume = _apply_percentile_clip(volume, percentile_clip, percentile_clip_sampling)
 
-    # 7. Apply windowing based on the specified mode
     if windowing_mode:
-        window_center, window_width = None, None
-        mode = windowing_mode.lower()
-        
-        def get_window_from_tags(ds_meta):
-            if 'WindowCenter' in ds_meta and 'WindowWidth' in ds_meta:
-                wc_val = ds_meta.WindowCenter
-                ww_val = ds_meta.WindowWidth
-                center = float(wc_val[0]) if isinstance(wc_val, pydicom.multival.MultiValue) else float(wc_val)
-                width = float(ww_val[0]) if isinstance(ww_val, pydicom.multival.MultiValue) else float(ww_val)
-                return center, width
-            return None, None
-
-        if mode == 'tags':
-            window_center, window_width = get_window_from_tags(first_slice_meta)
-            if window_center is None:
-                warnings.warn("windowing_mode='tags' but tags not found. Skipping windowing.", UserWarning)
-        elif mode == 'custom':
-            if custom_window and isinstance(custom_window, tuple) and len(custom_window) == 2:
-                window_center, window_width = custom_window
-            else:
-                raise ValueError("windowing_mode='custom' requires a valid `custom_window` tuple of (center, width).")
-        elif mode == 'fallback':
-            window_center, window_width = get_window_from_tags(first_slice_meta)
-            if window_center is None and custom_window:
-                if isinstance(custom_window, tuple) and len(custom_window) == 2:
-                    window_center, window_width = custom_window
-                else:
-                    warnings.warn("DICOM tags for windowing not found, and provided `custom_window` is invalid. Skipping windowing.", UserWarning)
-        elif mode is not None:
-             raise ValueError(f"Unknown windowing_mode: '{windowing_mode}'. Options are 'tags', 'custom', 'fallback', or None.")
-
-        if window_center is not None and window_width is not None:
-            img_min = window_center - window_width / 2
-            img_max = window_center + window_width / 2
-            volume = np.clip(volume, img_min, img_max)
-
-    # 8. Convert to uint8 if requested
+        volume = _apply_windowing(volume, first_slice_meta, windowing_mode, custom_window)
+    
     if to_uint8:
-        min_val, max_val = np.min(volume), np.max(volume)
-        if max_val > min_val:
-            volume = (volume - min_val) / (max_val - min_val)
-        else:
-            volume = np.zeros_like(volume)
-        volume = (volume * 255).astype(np.uint8)
+        volume = _normalize_to_uint8(volume)
 
-    return volume
+    return volume, df_tags
