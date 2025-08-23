@@ -1,7 +1,6 @@
 # Kaggle RSNA Intracranial Aneurysm Detection project
 
 ## Project structure
-kaggle_rsna_2025/
 ├── data/
 ├── ignore/
 ├── scripts/

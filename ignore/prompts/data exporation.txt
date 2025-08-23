@@ -18,4 +18,7 @@ It should do the following
 
 As the data is hugh, the data should be stored incrementally, so that if the processing breaks, the processed result won't lost. It should be reprepard for any error occured, and continue and record in a column.
 
-Run two sample series for test and the leave it to me to run.
+Run 3 sample series for test and the leave it to me to run.
+
+
+

@@ -1,0 +1,9 @@
+@data/processed/dicom_instance_metadata.csv contains dicom instance level data, where each row is a dicom instance. The data has following columns.
+file_path,pixel_shape,dimension,shape_str,error,BitsAllocated,BitsStored,Columns,FrameOfReferenceUID,HighBit,ImageOrientationPatient,ImagePositionPatient,InstanceNumber,Modality,PatientID,PhotometricInterpretation,PixelRepresentation,PixelSpacing,PlanarConfiguration,RescaleIntercept,RescaleSlope,RescaleType,Rows,SOPClassUID,SOPInstanceUID,SamplesPerPixel,SliceThickness,SpacingBetweenSlices,StudyInstanceUID,TransferSyntaxUID,SeriesInstanceUID,instance_filename.
+SeriesInstanceUID indicates what series does the instance belong to. 
+Please help me to do the following analysis:
+1. check if IOP are same for all the instances in a series
+
+2. use iop ipp to calculate distance between dicom images in a series remove the scout. save the data togheter with modality; And then calculate the distribution for each modality
+
+

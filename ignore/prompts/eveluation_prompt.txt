@@ -1,0 +1,14 @@
+The following code is for a Kaggle evaluation. Please read the code in @data/kaggle_evaluation/core @data/kaggle_evaluation/rsna_gateway.py 
+  @data/kaggle_evaluation/rsna_inference_server.py data/kaggle_evaluation/__init__.py and tell me the general steps of how the evaluation take 
+  place.
+
+
+
+Please read and understand the following code. 
+*background*: 
+Given brain medical images, predict aneurysm.The data are dicom files for each series, which is organised as folder.
+The dataset contains about 2500 series from various modalities (CTA, MRA, MRI T1 post-contrast, T2-weighted).
+Aim is to predict aneurysm presence across 13 anatomical locations. 
+
+Please read the code. Help me to understand the shape of of model input data. 
+

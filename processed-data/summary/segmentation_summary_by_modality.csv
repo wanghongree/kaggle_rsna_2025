@@ -1,0 +1,5 @@
+Modality,Total_Series,Series_With_Segmentation,Series_Without_Segmentation,Segmentation_Percentage,Series_With_Aneurysm,Avg_DICOM_Files,Median_DICOM_Files,Std_DICOM_Files
+CTA,1857,74,1783,4.0,997,397.047,331.0,254.597
+MRA,1256,41,1215,3.3,557,157.021,164.0,78.514
+MRI T1post,306,21,285,6.9,78,154.66,165.0,94.187
+MRI T2,986,42,944,4.3,261,30.834,29.0,25.427

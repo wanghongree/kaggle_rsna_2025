@@ -1,0 +1,40 @@
+
+
+
+
+
+*task*
+given a series of dicom images of head from various modalities (CTA, MRA, MRI T1 post-contrast, T2-weighted), predict the likelihood of aneurysm and in each of the locations. There could be aneurysms in multiple locations.
+
+*Training data*:
+4500 brain imaging series from various modalities (CTA, MRA, MRI T1 post-contrast, T2-weighted)
+ - each series (as a folder) contains dicom files; 
+ - labeled for aneurysm presence across 13 anatomical locations
+ - localizer labels for almost all aneurysm series (about 2000). That is (x, y) cooredinates for one 2d slice (dicom) where an aneurys is happening.
+
+ Here are the 13 locations.
+  1. Left Infraclinoid Internal Carotid Artery  
+  2. Right Infraclinoid Internal Carotid Artery  
+  3. Left Supraclinoid Internal Carotid Artery  
+  4. Right Supraclinoid Internal Carotid Artery  
+  5. Left Middle Cerebral Artery  
+  6. Right Middle Cerebral Artery  
+  7. Anterior Communicating Artery  
+  8. Left Anterior Cerebral Artery  
+  9. Right Anterior Cerebral Artery  
+  10. Left Posterior Communicating Artery  
+  11. Right Posterior Communicating Artery  
+  12. Basilar Tip  
+  13. Other Posterior Circulation
+
+ There are also 3d segmentation masks for the 13 locations, for 270 out of the 4500 brain series.
+
+ Here is a summary of number series and instances in csv format:
+ Modality,Total_Series,Series_With_Segmentation,Series_Without_Segmentation,Segmentation_Percentage,Series_With_Aneurysm,Avg_DICOM_Files,Median_DICOM_Files,Std_DICOM_Files
+CTA,1857,74,1783,4.0,997,397.047,331.0,254.597
+MRA,1256,41,1215,3.3,557,157.021,164.0,78.514
+MRI T1post,306,21,285,6.9,78,154.66,165.0,94.187
+MRI T2,986,42,944,4.3,261,30.834,29.0,25.427
+
+
+Please think hard and help me to consider if it's possible to use DINO v3 to complete this task. How can it be used.

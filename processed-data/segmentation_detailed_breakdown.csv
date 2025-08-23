@@ -1,0 +1,9 @@
+Modality,Aneurysm Present,Total_Series,Series_With_Segmentation,Segmentation_Percentage,Avg_DICOM_Files
+CTA,0,860,7,0.8,420.344
+CTA,1,997,67,6.7,376.951
+MRA,0,699,4,0.6,162.183
+MRA,1,557,37,6.6,150.544
+MRI T1post,0,228,5,2.2,148.882
+MRI T1post,1,78,16,20.5,171.551
+MRI T2,0,725,18,2.5,31.524
+MRI T2,1,261,24,9.2,28.916

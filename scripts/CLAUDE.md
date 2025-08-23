@@ -82,3 +82,38 @@
 **Dependencies**: Requires `03_add_segmentation_info.py` to be run first to generate the enhanced dataset.
 
 **Usage**: Run from project root directory with `python scripts/04_segmentation_summary.py`
+
+## 05_dicom_instance_metadata.py
+
+**Purpose**: Extract comprehensive instance-level metadata from all DICOM files in the dataset.
+
+**What it does**:
+- Reads every DICOM instance across all series in `data/series/`
+- Extracts pixel data shapes (2D/3D/4D) and dimensions for each instance
+- Extracts 25 specified DICOM tags per instance including technical parameters, positioning, and identifiers
+- Implements incremental saving with checkpoint/resume capability for large datasets
+- Handles errors gracefully and continues processing, recording error details
+- Creates instance-level dataset with one row per DICOM file
+- Provides comprehensive statistics and error analysis
+
+**Key Features**:
+- **Incremental Processing**: Saves progress periodically and can resume from interruptions
+- **Error Handling**: Continues processing on errors, logs details, and includes error records
+- **Memory Efficient**: Processes files individually to handle large datasets
+- **Comprehensive Extraction**: 25+ metadata fields plus pixel data information
+
+**DICOM Tags Extracted**:
+`BitsAllocated`, `BitsStored`, `Columns`, `FrameOfReferenceUID`, `HighBit`, `ImageOrientationPatient`, `ImagePositionPatient`, `InstanceNumber`, `Modality`, `PatientID`, `PhotometricInterpretation`, `PixelRepresentation`, `PixelSpacing`, `PlanarConfiguration`, `RescaleIntercept`, `RescaleSlope`, `RescaleType`, `Rows`, `SOPClassUID`, `SOPInstanceUID`, `SamplesPerPixel`, `SliceThickness`, `SpacingBetweenSlices`, `StudyInstanceUID`, `TransferSyntaxUID`
+
+**Output**: 
+- Main dataset: `data/processed/dicom_instance_metadata.csv` (instance-level)
+- Columns: 32 total including metadata fields, pixel shape info, and error tracking
+- Key columns: `SeriesInstanceUID`, `instance_filename`, `pixel_shape`, `dimension`, `shape_str`, `error`, plus all DICOM tags
+
+**Test Version**: `05_dicom_instance_metadata_test.py` processes only 3 series for testing
+
+**Dependencies**: None - can be run independently
+
+**Usage**: 
+- Full processing: `python scripts/05_dicom_instance_metadata.py`
+- Test version: `python scripts/05_dicom_instance_metadata_test.py`
