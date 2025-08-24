@@ -7,3 +7,12 @@ Please help me to do the following analysis:
 2. use iop ipp to calculate distance between dicom images in a series remove the scout. save the data togheter with modality; And then calculate the distribution for each modality
 
 
+
+
+
+@data/processed/dicom_instance_metadata.csv contains dicom instance level data, where each row is a dicom instance. The data has following columns.
+file_path,pixel_shape,dimension,shape_str,error,BitsAllocated,BitsStored,Columns,FrameOfReferenceUID,HighBit,ImageOrientationPatient,ImagePositionPatient,InstanceNumber,Modality,PatientID,PhotometricInterpretation,PixelRepresentation,PixelSpacing,PlanarConfiguration,RescaleIntercept,RescaleSlope,RescaleType,Rows,SOPClassUID,SOPInstanceUID,SamplesPerPixel,SliceThickness,SpacingBetweenSlices,StudyInstanceUID,TransferSyntaxUID,SeriesInstanceUID,instance_filename.
+SeriesInstanceUID indicates what series does the instance belong to. 
+Occationaly there is a scout image at the start or end. A charactor of scout image is that it's far from the images, that is, it's distance from other images are very far. Is there a way to detect it?
+1. Think hard and try to detecting it in a new script.
+2. after removing the scout image, please help me to calculate the distance between 1st and last images using iop ipp, taht is the farest distance between images. Then do a histogram to generate the distribution.
