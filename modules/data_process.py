@@ -52,16 +52,27 @@ def _is_slice_valid(ds: Dataset, filter_invalid: bool) -> bool:
             
     return True
 
+
 def _extract_tags(ds: Dataset, filename: str) -> Dict[str, Any]:
     """Extracts a predefined list of tags from a DICOM dataset."""
     slice_tags = {'FileName': filename}
+
+    def try_float(val):
+        try:
+            return float(val)
+        except (ValueError, TypeError):
+            return val  # leave as-is if not numeric
+
     for tag in TAGS_TO_EXTRACT:
         value = ds.get(tag, None)
+
         if isinstance(value, MultiValue):
-            slice_tags[tag] = list(value)
+            slice_tags[tag] = [try_float(v) for v in value]
         else:
-            slice_tags[tag] = value
+            slice_tags[tag] = try_float(value)
+
     return slice_tags
+
 
 def _load_and_validate_slices(
     series_path: str, mode: str, filter_invalid: bool
@@ -220,6 +231,36 @@ def _normalize_to_uint8(volume: np.ndarray) -> np.ndarray:
     return (volume * 255).astype(np.uint8)
 
 # --- Main Public Function ---
+
+
+
+def convert_columns_to_float_lists(df, columns):
+    """
+    Convert specified columns in df to lists of floats.
+    - Handles both real lists of strings and stringified lists.
+    - Ignores empty values (None, NaN, '', []).
+    - Modifies df in place and also returns it.
+    """
+    def to_float_list(val):
+        if val in (None, "", []):
+            return val
+        if isinstance(val, float) and np.isnan(val):
+            return val
+        if isinstance(val, list):
+            return [float(i) for i in val]
+        if isinstance(val, str):
+            try:
+                parsed = ast.literal_eval(val)  # safely parse
+                return [float(i) for i in parsed]
+            except Exception:
+                return val  # leave as is if it can't be parsed
+        return val  # leave other types untouched
+
+    for col in columns:
+        if col in df.columns:
+            df[col] = df[col].apply(to_float_list)
+
+    return df
 
 def read_dicom_series(
     series_path: str,
